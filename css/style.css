@@ -1,0 +1,29 @@
+/* STYLES ON ADMIN PAGES */
+.wp-admin h1{
+  font-weight: bold;
+}
+.wp-admin h2.hookybeaver{
+  font-size: 1.3em;
+  font-weight: 900;
+}
+.wp-admin h3.hookybeaver{
+  margin: 0.5em 0;
+}
+
+.wp-admin .hb-image {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* FIX HOOK STYLING ISSUES */
+/* Change background color of buttons on hover */
+.nav-tab:hover {
+    background-color: #008000;
+    color: #fff;
+}
+
+/* Create an active/current tablink class */
+.nav-tab-active {
+    background-color: #008000;
+    color: #fff;
+}
